@@ -1,0 +1,10 @@
+
+.formulario{
+    display:flex;
+    flex-direction:column;
+}
+
+h1{
+    display: block;
+    text-align: center;
+}

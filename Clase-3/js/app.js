@@ -25,7 +25,7 @@ const handleInput = () =>{
     if(isNaN(inputValue) || inputValue>10){
         alert("Ingrese un número del 1 al 10")
     }else{
-        myDoc.getElementById("valorInput").innerHTML = "Cantidad de videos generados: " + inputValue;
+        myDoc.getElementById("valorInput").innerHTML = "Cantidad de links generados: " + inputValue;
         let num = Number(inputValue)
         myDoc.getElementById("numVideos").innerHTML    
             for (let index = 0; index < num; index++) {
